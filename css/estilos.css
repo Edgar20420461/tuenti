@@ -1,0 +1,133 @@
+:root{
+    --blanco: #ffffff;
+    --negro: #212121;
+    --primario: #0477BF;
+    --gris: #757575;
+
+
+    /* tipo de letra para la pagina */
+--tipo-letra: 'Krub', sans-serif;
+}
+
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box; /* Box Model */
+}
+
+
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  .principal{
+    margin: auto;
+    height: 900px;
+    width: 900px;
+    background-color: #017bc6;
+  }
+
+  .principal .logo img{
+    display: flex;
+    margin: auto;
+    height: 95px;
+    width: 300px;
+
+  }
+
+  .secundario{
+    margin-top: 100px;
+    margin: auto;
+    height: 650px;
+    width: 850px;
+    border-radius: 15px;
+    background-color: white;
+  }
+  .unete{
+    margin: auto;
+    height: 50px;
+    width: 850px;
+    /*background-color: #757575;*/
+  }
+    
+  .nombre{
+    margin: auto;
+    height: 50px;
+    width: 850px;
+    /*background-color: blue;*/
+  }
+
+  .correo{
+    margin: auto;
+    height: 50px;
+    width: 850px;
+    /*background-color: red;*/
+  }
+  .riko{
+    margin: auto;
+    height: 50px;
+    width: 850px;
+    /*background-color: yellow;*/
+  }
+  .nacimiento{
+    margin: auto;
+    height: 50px;
+    width: 850px;
+    /*background-color: red;*/
+  }
+  .contraseña{
+    margin: auto;
+    height: 50px;
+    width: 850px;
+    /*background-color: blue;*/
+  }
+  .numero{
+    margin: auto;
+    height: 50px;
+    width: 850px;
+    /*background-color: red;*/
+  }
+  .condiciones{
+    margin: auto;
+    height: 50px;
+    width: 850px;
+    /*background-color: blue;*/
+  }
+  .btnentrar{
+    margin: auto;
+    height: 50px;
+    width: 850px;
+    /*background-color: red;*/
+  }
+  .unete p{
+    font-size: 3rem;
+    
+  }
+  .nombre p{
+    font-size: 3rem;
+  }
+  .correo p{
+    font-size: 3rem;
+  }
+  .riko p{
+    font-size: 3rem;
+  }
+  .nacimiento p{
+    font-size: 2rem;
+  }
+
+  .contraseña p{
+    font-size: 3rem;
+  }
+  
+  .numero p{
+    font-size: 3rem;
+  }
+
+  .condicones p{
+    font-size: 2rem;
+  }
+
+  btnentrar p{
+    font-size: 4rem;
+  }
